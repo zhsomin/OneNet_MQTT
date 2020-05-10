@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFCCCC">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/aa"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#fffc"
+        android:text="进行控制"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:src="@drawable/open"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开关1"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:src="@drawable/open"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical">
+               <ImageView
+                   android:layout_width="125dp"
+                   android:layout_height="100dp"
+                   android:src="@drawable/open"
+                   android:layout_weight="1"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="111"
+                   android:layout_gravity="center_horizontal"/>
+
+           </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:src="@drawable/open"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:src="@drawable/open"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="100dp"
+                android:src="@drawable/open"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="45sp"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/tempeature"/>
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在这里显示温度"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+
+            android:textColor="#fffc"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="45sp"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/tempeature"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在这里显示湿度"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+
+            android:textColor="#ffff"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    
+    
+    
+
+
